@@ -6,7 +6,7 @@ class QuotesSpider(scrapy.Spider):
 
     def start_requests(self):
         urls=[]
-        for i in range(1,1216):
+        for i in range(1,1220):
             url='https://www.everyonepiano.cn/Music.html?&p=' + str(i)
             urls.append(url)
         for url in urls:
